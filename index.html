@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!--expnettodoapp-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,10 +16,7 @@
 </body>
 <script>
 
-const API_BASE_URL = 
-  window.location.hostname === "localhost"
-    ? "http://localhost:3999/.netlify/functions/api/"
-    : "/api";
+const API_BASE_URL = "https://backend200.netlify.app/.netlify/functions/api/";
 
 const addTaskBtn = document.querySelector('#addTaskBtn');
 addTaskBtn.addEventListener('click', addTask);
